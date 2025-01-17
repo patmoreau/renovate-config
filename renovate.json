@@ -1,0 +1,10 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "packageRules": [
+    {
+      "description": "Limit FluentAssertions to 7.*.* because of new licencing",
+      "matchPackagePatterns": ["^FluentAssertions*"],
+      "allowedVersions": "<8.0.0"
+    }
+  ]
+}
