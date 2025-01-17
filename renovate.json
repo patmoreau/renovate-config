@@ -5,6 +5,28 @@
       "description": "Limit FluentAssertions to 7.*.* because of new licencing",
       "matchPackagePatterns": ["^FluentAssertions*"],
       "allowedVersions": "<8.0.0"
+    },
+    {
+      "matchUpdateTypes": ["minor", "patch"],
+      "groupName": "Drifter Apps minor and patch updates",
+      "groupSlug": "microsoft-minor-patch-updates",
+      "matchPackageNames": ["/^DrifterApps./"]
+    },
+    {
+      "matchUpdateTypes": ["minor", "patch"],
+      "groupName": "Microsoft minor and patch updates",
+      "groupSlug": "microsoft-minor-patch-updates",
+      "matchPackageNames": ["/^Microsoft./", "/^System./"]
+    },
+    {
+      "matchUpdateTypes": ["minor", "patch"],
+      "groupName": "3rd parties .NET packages updates",
+      "groupSlug": "other-dotnet-updates",
+      "matchPackageNames": ["!/^Microsoft./", "!/^System./", "!/^DrifterApps./"]
+    },
+    {
+      "matchUpdateTypes": ["major"],
+      "dependencyDashboardApproval": true
     }
   ]
 }
