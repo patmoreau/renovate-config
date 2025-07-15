@@ -1,5 +1,9 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "schedule": ["on the first day of the month"],
+  "timezone": "America/Toronto",
+  "prConcurrentLimit": 5,
+  "branchConcurrentLimit": 10,
   "packageRules": [
     {
       "description": "Limit FluentAssertions to 7.*.* because of new licencing",
