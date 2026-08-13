@@ -4,6 +4,10 @@
   "timezone": "America/Toronto",
   "prConcurrentLimit": 5,
   "branchConcurrentLimit": 10,
+  "platformAutomerge": true,
+  "automerge": true,
+  "automergeType": "pr",
+  "automergeStrategy": "squash",
   "packageRules": [
     {
       "description": "Limit FluentAssertions to 7.*.* because of new licencing",
