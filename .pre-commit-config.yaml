@@ -4,3 +4,4 @@ repos:
     hooks:
       - id: renovate-config-validator
         files: '^default\.json$'
+        args: ['--strict']
