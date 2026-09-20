@@ -11,7 +11,7 @@
   "packageRules": [
     {
       "description": "Limit FluentAssertions to 7.*.* because of new licencing",
-      "matchPackagePatterns": ["^FluentAssertions*"],
+      "matchPackageNames": ["/^FluentAssertions/"],
       "allowedVersions": "<8.0.0"
     },
     {
