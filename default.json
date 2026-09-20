@@ -17,7 +17,7 @@
     {
       "matchUpdateTypes": ["minor", "patch"],
       "groupName": "Drifter Apps minor and patch updates",
-      "groupSlug": "microsoft-minor-patch-updates",
+      "groupSlug": "drifterapps-minor-patch-updates",
       "matchPackageNames": ["/^DrifterApps./"]
     },
     {
